@@ -1,0 +1,9 @@
+# Python 3.12. LeYOLO-forken bruker Ultralytics 8.1.4.
+git+https://github.com/LilianHollard/LeYOLO.git@b1882a118da127a9bb299c8e906d23ed422cb972
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+scipy==1.12.0
+opencv-python==4.9.0.80
+huggingface_hub==0.36.0
+PyYAML==6.0.2

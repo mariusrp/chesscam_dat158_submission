@@ -1,0 +1,43 @@
+{
+  "run_id": "20260911T170125Z-pieces-480M_leyolo_pieces-real-v2-full",
+  "finished_at": "2026-09-11T19:00:09.284705+00:00",
+  "duration_seconds": 7123.362802,
+  "best_sha256": "b6cf41e60ad6d25b72cfaadf3de222c0924d8c8861506c6d72bc4e9cb7fe797a",
+  "versions": {
+    "cuda": "12.1",
+    "torch": "2.2.2+cu121",
+    "ultralytics": "8.1.4"
+  },
+  "gpu": "NVIDIA L4",
+  "validation": {
+    "custom-val": {
+      "fitness": 0.8488078107611323,
+      "metrics/mAP50(B)": 0.962488021517756,
+      "metrics/mAP50-95(B)": 0.8361766762326186,
+      "metrics/precision(B)": 0.933669387445284,
+      "metrics/recall(B)": 0.9019628577867813
+    },
+    "external-pieces-yolo-v1-val": {
+      "fitness": 0.6382172836097874,
+      "metrics/mAP50(B)": 0.8861430671655367,
+      "metrics/mAP50-95(B)": 0.6106699743258152,
+      "metrics/precision(B)": 0.8302355066684736,
+      "metrics/recall(B)": 0.8538608360588928
+    },
+    "real-pieces-yolo-v2-val": {
+      "fitness": 0.9492152648281313,
+      "metrics/mAP50(B)": 0.9922726822744917,
+      "metrics/mAP50-95(B)": 0.9444311073340913,
+      "metrics/precision(B)": 0.995451053305743,
+      "metrics/recall(B)": 0.9771218795075874
+    },
+    "upstream-val": {
+      "fitness": 0.8160225088497627,
+      "metrics/mAP50(B)": 0.9853604698360638,
+      "metrics/mAP50-95(B)": 0.7972071798512848,
+      "metrics/precision(B)": 0.9616842934608908,
+      "metrics/recall(B)": 0.9625406394448991
+    }
+  },
+  "description": "Uttrekk fra den lagrede treningsloggen. Validering med Ultralytics, imgsz=480; ikke en ny evaluering av hele appen."
+}
